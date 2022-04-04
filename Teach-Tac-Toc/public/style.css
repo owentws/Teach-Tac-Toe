@@ -1,0 +1,29 @@
+body{background:#cb9cf3;}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+#game-name{
+    margin-bottom: 10vh;
+    color:white;
+}
+.btn{
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+}
+.btn-default{
+    background-color: white;
+}
+
+#input-tn{
+    width: 200px;
+    margin:5px;
+    border-radius: 25px;
+    padding: 5px 40px;
+    border: none;
+}
