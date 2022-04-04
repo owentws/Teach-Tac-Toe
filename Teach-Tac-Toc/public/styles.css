@@ -8,7 +8,7 @@ body{background:#cb9cf3;}
     align-items: center;
 }
 #game-name{
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     color:white;
 }
 .btn{
@@ -18,4 +18,11 @@ body{background:#cb9cf3;}
 }
 .btn-default{
     background-color: white;
+}
+
+input{
+    width: 200px;
+    margin:5px;
+    border-radius: 25px;
+    padding: 5px 40px;
 }
