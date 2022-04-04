@@ -21,5 +21,9 @@ body{background:#cb9cf3;}
 .btn-default{
     background-color: white;
 }
-#code-student{justify-content: space-evenly;}
-h3{text-align: center;}
+#code-student{
+    justify-content: space-evenly;
+}
+h3{
+    text-align: center;
+}
