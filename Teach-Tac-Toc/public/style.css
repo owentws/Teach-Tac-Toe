@@ -7,8 +7,10 @@ body{background:#cb9cf3;}
     flex-direction: column;
     align-items: center;
 }
+.form-control{
+    border-radius: 25px
+}
 #game-name{
-    margin-bottom: 20vh;
     color:white;
 }
 .btn{
@@ -18,4 +20,10 @@ body{background:#cb9cf3;}
 }
 .btn-default{
     background-color: white;
+}
+#code-student{
+    justify-content: space-evenly;
+}
+h3{
+    text-align: center;
 }
