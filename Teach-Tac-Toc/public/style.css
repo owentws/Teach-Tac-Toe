@@ -1,0 +1,21 @@
+body{background:#cb9cf3;}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+#game-name{
+    margin-bottom: 20vh;
+    color:white;
+}
+.btn{
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+}
+.btn-default{
+    background-color: white;
+}
