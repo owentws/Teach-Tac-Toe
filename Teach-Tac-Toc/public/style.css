@@ -27,3 +27,29 @@ body{background:#cb9cf3;}
 h3{
     text-align: center;
 }
+.card{
+    margin: 10px;
+}
+.card-header{
+    color: white;
+}
+#card-o{
+    background-color: #ffb1b1;
+    border: 5px solid #db3636;
+    border-radius: 25px;
+}
+#card-x{
+    background-color: #a8edff;
+    border: 5px solid #3567db;
+    border-radius: 25px;
+}
+li{
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+}
+.id-list{
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+}
