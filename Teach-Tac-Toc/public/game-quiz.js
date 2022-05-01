@@ -45,24 +45,47 @@ function ReadList(snapshot){
         const choice4 = data.val().choice4;
         const newDiv = 
         `<li class="list-group-item d-flex justify-content-between align-item-star">
-            <div class="ms-2 me-auto">${title}</div>
-                <span>
-                    <button type="button" class="btn btn-outline-danger btn-delete" data-id="${id}">
-                        <i class="bi bi-trash3"></i>
+        <div class="ms-2 me-auto">${title}</div>
+            <span>
+                <button type="button" class="btn btn-outline-warning btn-edit" data-id="${id}">
+                    <i class="bi bi-pen"></i>
+                </button>
+                <button type="button" class="btn btn-outline-danger btn-delete" data-id="${id}">
+                    <i class="bi bi-trash3"></i>
+                </button>
+            </span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-item-star">
+            <div class="ms-2 me-auto">A : ${choice1}</div>
+            <span>
+                    <button type="button" class="btn btn-outline-warning btn-edit" data-id="${id}">
+                        <i class="bi bi-pen"></i>
                     </button>
-                </span>
+            </span>               
         </li>
         <li class="list-group-item d-flex justify-content-between align-item-star">
-            <div class="ms-2 me-auto">A : ${choice1}</div>               
+            <div class="ms-2 me-auto">B : ${choice2}</div>
+            <span>
+                    <button type="button" class="btn btn-outline-warning btn-edit" data-id="${id}">
+                        <i class="bi bi-pen"></i>
+                    </button>
+            </span>               
         </li>
         <li class="list-group-item d-flex justify-content-between align-item-star">
-            <div class="ms-2 me-auto">B : ${choice2}</div>               
+            <div class="ms-2 me-auto">C : ${choice3}</div>
+            <span>
+                    <button type="button" class="btn btn-outline-warning btn-edit" data-id="${id}">
+                        <i class="bi bi-pen"></i>
+                    </button>
+            </span>               
         </li>
         <li class="list-group-item d-flex justify-content-between align-item-star">
-            <div class="ms-2 me-auto">C : ${choice3}</div>               
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-item-star">
-            <div class="ms-2 me-auto">D : ${choice4}</div>               
+            <div class="ms-2 me-auto">D : ${choice4}</div>
+            <span>
+                    <button type="button" class="btn btn-outline-warning btn-edit" data-id="${id}">
+                        <i class="bi bi-pen"></i>
+                    </button>
+            </span>              
         </li><br>
         `;
         const newElement = document.createRange().createContextualFragment(newDiv);
