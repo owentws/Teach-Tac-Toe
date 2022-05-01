@@ -1,0 +1,15 @@
+body{
+	background-color: #cb9cf3;
+}
+#navid {
+	background-color: #783caa;
+}
+#tttTitle {
+	-webkit-text-stroke: 3px #783caa;
+	color: white;
+	text-shadow: #783caa;
+	font-weight: 900;
+}
+.row{
+	justify-content: center;
+}
