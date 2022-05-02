@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Create Question </title>
+    <title> Test Create Question </title>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
@@ -21,7 +21,6 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <!-- Firebase Library -->
         <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
@@ -46,7 +45,7 @@
               <form action="" class="" id="login-form">
                 <div class="modal-body mb-3">
                   <input type="email" class="form-control" id="input-email-login" placeholder="Email" required>
-                  <br />
+                  <br/>
                   <input type="password" class="form-control" id="input-password-login" placeholder="Password" required>
                   <p id="feedback-msg-login"></p>
                 </div>
@@ -102,6 +101,7 @@
         <h1 class="display-1 text-center" id="tttTitle"> Teach-Tac-Toe </h1>
                 
         <!-- Write data to the database -->
+        <!-- List Group Item มีขีดเส้นใต้ -->
         <div class="container p-5 justify-content-center logged-in">
           <h2>Create Question</h2>
           <br>
@@ -121,6 +121,12 @@
                   A
                 </span>
                 <input id="choice1" type="text" class="form-control" placeholder="Enter choice A" aria-label="choice1" aria-describedby="basic-addon2">
+                  
+                  <select id="answer1" style="width:80px">
+                    <option value="None" selected hidden>Choose</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No" id="no">No</option>
+                  </select>
               </div>
             </div>
             <div class="col-xl-6 col-lg-6">
@@ -129,6 +135,12 @@
                   B
                 </span>
                 <input id="choice2" type="text" class="form-control" placeholder="Enter choice B" aria-label="choice2" aria-describedby="basic-addon3">
+                
+                <select id="answer2" style="width:80px">
+                  <option value="None" selected hidden>Choose</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
               </div>
             </div>  
             <div class="col-xl-6 col-lg-6">
@@ -137,6 +149,12 @@
                   C
                 </span>
                 <input id="choice3" type="text" class="form-control" placeholder="Enter choice C" aria-label="choice3" aria-describedby="basic-addon4">
+                
+                  <select id="answer3" style="width:80px">
+                    <option value="None" selected hidden>Choose</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
               </div>
             </div>  
             <div class="col-xl-6 col-lg-6">
@@ -145,6 +163,12 @@
                   D
                 </span>
                 <input id="choice4" type="text" class="form-control" placeholder="Enter choice D" aria-label="choice4" aria-describedby="basic-addon5">
+                
+                  <select id="answer4" style="width:80px">
+                    <option value="None" selected hidden>Choose</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
               </div>
             </div>
           </div>
