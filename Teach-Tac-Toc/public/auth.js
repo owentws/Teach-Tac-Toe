@@ -42,6 +42,7 @@ firebase.auth().onAuthStateChanged((user) => {
 const btnLogout = document.querySelector('#btnLogout');
 btnLogout.addEventListener('click', ()=>{
 	firebase.auth().signOut();
+	document.location.href = 'index.html';
 	console.log('Logout completed.');
 });
 

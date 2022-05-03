@@ -28,23 +28,84 @@
 				<span class="logged-in">
 					<span id="user-profile-name" class="display-name" style="color: white"></span></span>
 				<button type="button" id="btnLogout" class="btn btn-outline-light logged-in">
-					<i class="bi bi-box-arrow-right"></i>Logout</button>
+					<i  class="bi bi-box-arrow-right"></i>Logout</button>
 			</nav>
 		</div>
 	</nav>
 
+	<input type="button" onclick="location.href='index.html';" value="Home" id="btnHome"/>
+
 	<h1 class="display-1 text-center" id="tttTitle"> Teach-Tac-Toe </h1>
-	<center>
-		<h5 class="display-3 text-center logged-in" id="role"> Select your role</h5><br>
-        <a href="student.html">
-            <button type="button" id="btnRole" class="btn btn-outline-light text-center logged-in" style="margin-bottom: 20px;">Student</button>
-        </a>
-    </center>
-	<center>
-        <a href="teacher.html">
-            <button type="button" id="btnRole" class="btn btn-outline-light text-center logged-in">Teacher</button>
-        </a>
-    </center>
+
+	<div class="container d-flex justify-content-center mb-2">
+		<button type="button" id="btnStartGame" class="btn btn-success mx-1 logged-in">START GAME</button>
+		<button type="button" id="btnTerminateGame" class="btn btn-warning mx-1 logged-in">END GAME</button>
+	</div>
+
+<div class="container d-flex align-itms-center text-center flex-column">
+
+	<div class="fs-5 fw-bold text-center justify-content-center mb-2 mt-2 logged-in" id="waiting-text"></div>
+	<!-- Tic-Tac-Toe table -->
+	<div class="row">
+		<div class="col-3 logged-in">
+			<form class="form-inline p-2 row">
+				<label for="inputPlayer-x" class="label-player">Player X:</label>
+				<input readonLy type="text" class="form-control" id="inputPlayer-x" placeholder="Player X">
+				<div class="form-group mb-2">
+					<button type="button" id="btnJoin-x" class="btn btn-primary btn-join">Join</button>
+					<button type="button" id="btnCancel-x" class="btn btn-secondary btn-cancel-join-game">Cancel</button>
+				</div>
+			</form>
+
+		</div>
+		<div class="container col-6 mb-2 logged-in" style="width:500px;">
+			<div class="row"  id="row-1">
+				<div class="col border justify-content-center align-itms-center table-col" id="row-1-col-1">
+					<p class="display-4"></p>
+				</div>
+				<div class="col border justify-content-center align-itms-center table-col" id="row-1-col-2">
+					<p class="display-4"></p>
+				</div>
+				<div class="col border justify-content-center align-itms-center table-col" id="row-1-col-3">
+					<p class="display-4"></p>
+				</div>
+			</div>
+			<div class="row" id="row-2">
+				<div class="col border justify-content-center align-itms-center table-col" id="row-2-col-1">
+					<p class="display-4"></p>
+				</div>
+				<div class="col border justify-content-center align-itms-center table-col" id="row-2-col-2">
+					<p class="display-4"></p>
+				</div>
+				<div class="col border justify-content-center align-itms-center table-col" id="row-2-col-3">
+					<p class="display-4"></p>
+				</div>
+			</div>
+			<div class="row" id="row-3">
+				<div class="col border justify-content-center align-itms-center table-col" id="row-3-col-1">
+					<p class="display-4"></p>
+				</div>
+				<div class="col border justify-content-center align-itms-center table-col" id="row-3-col-2">
+					<p class="display-4"></p>
+				</div>
+				<div class="col border justify-content-center align-itms-center table-col" id="row-3-col-3">
+					<p class="display-4"></p>
+			</div>
+		</div>
+	</div>
+		<div class="col-3 logged-in">
+			<form class="form-inline p-2 row">
+				<label for="inputPlayer-o" class="label-player">Player O:</label>
+				<input readonLy type="text" class="form-control" id="inputPlayer-o" placeholder="Player O">
+				<div class="form-group mb-2">
+					<button type="button" id="btnJoin-o" class="btn btn-primary btn-join">Join</button>
+					<button type="button" id="btnCancel-o" class="btn btn-secondary btn-cancel-join-game">Cancel</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</div>
 
 
 	<div class="modal" id="modal-login" tabindex="-1">

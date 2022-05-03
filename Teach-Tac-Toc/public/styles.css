@@ -12,8 +12,30 @@ body{
     margin-top: 100px;
     margin-bottom: 50px;
 }
+#role{
+    color: #783caa;
+    text-shadow: #783caa;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
 .row{
     justify-content: center;
+}
+#btnStartGame{
+    width: 150px;
+	font-weight: 700;
+	background-color: rgb(55, 169, 177);
+	color: #ffffff;
+	border: solid 3px #ffffff;
+	border-radius: 20px;
+}
+#btnTerminateGame{
+    width: 150px;
+	font-weight: 700;
+	background-color: rgb(177, 55, 55);
+	color: #ffffff;
+	border: solid 3px #ffffff;
+	border-radius: 20px;
 }
 #row-1-col-1,#row-1-col-2,#row-1-col-3,
 #row-2-col-1,#row-2-col-2,#row-2-col-3,
@@ -26,8 +48,37 @@ body{
     padding: 20px;
 	-webkit-text-stroke: 10px #783caa;
 }
-#btnCrateRoom, #btnJoinGame,#btnSignup, #btnLogin, #btnLogout, #btnQuestion,#btnAdd, #btnSubmit {
+#btnCrateRoom, #btnJoinGame,#btnSignup, #btnRole, #btnBoard,
+#btnLogin, #btnLogout, #btnQuestion,#btnAdd, #btnSubmit{
 	width: 150px;
+	font-weight: 700;
+	background-color: white;
+	color: #783caa;
+	border: solid 3px #783caa;
+	border-radius: 20px;
+}
+#btnJoin-x,#btnJoin-o{
+    width: 100px;
+	font-weight: 700;
+	background-color: white;
+	color: #783caa;
+	border: solid 3px #783caa;
+	border-radius: 20px;
+}
+#btnCancel-x,#btnCancel-o{
+    width: 100px;
+	font-weight: 700;
+	background-color: #783caa;
+	color: #ffffff;
+	border: solid 3px #ffffff;
+	border-radius: 20px;
+}
+#btnHome{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 120px;
+    height: 50px;
 	font-weight: 700;
 	background-color: white;
 	color: #783caa;
@@ -61,4 +112,7 @@ body{
 }
 #fill-question{
     margin-bottom: 10px;
+}
+h3{
+    color: #3e0b68;
 }
