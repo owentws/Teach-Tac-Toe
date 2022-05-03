@@ -1,0 +1,62 @@
+body{
+    background-color: #cb9cf3;
+}
+#navid {
+    background-color: #783caa;
+}
+#tttTitle {
+    -webkit-text-stroke: 3px #783caa;
+    color: white;
+    text-shadow: #783caa;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.row{
+    justify-content: center;
+}
+#row-1-col-1,#row-1-col-2,#row-1-col-3,
+#row-2-col-1,#row-2-col-2,#row-2-col-3,
+#row-3-col-1,#row-3-col-2,#row-3-col-3{
+    font-weight: 900;
+	background-color: white;
+	color: #783caa;
+    margin: 5px;
+	border-radius: 20px;
+    padding: 20px;
+}
+#btnCrateRoom, #btnJoinGame,#btnSignup, #btnLogin, #btnLogout, #btnQuestion,#btnAdd, #btnSubmit {
+	width: 150px;
+	font-weight: 700;
+	background-color: white;
+	color: #783caa;
+	border: solid 3px #783caa;
+	border-radius: 20px;
+}
+.display-4{
+    width: 100px;
+    height: 100px;
+}
+#waiting-text{
+    color: #783caa;
+    font-weight: 900;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.label-player{
+    -webkit-text-stroke: 2px #783caa;
+    font-size: 40px;
+    color: white;
+    text-shadow: #783caa;
+    font-weight: 900;
+}
+#inputPlayer-o,#inputPlayer-x{
+    margin: 20px;
+
+}
+.modal-body{
+    margin: 10px;
+}
+#fill-question{
+    margin-bottom: 10px;
+}
