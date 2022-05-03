@@ -20,10 +20,11 @@ body{
 #row-3-col-1,#row-3-col-2,#row-3-col-3{
     font-weight: 900;
 	background-color: white;
-	color: #783caa;
+	color: #6a00a7;
     margin: 5px;
 	border-radius: 20px;
     padding: 20px;
+	-webkit-text-stroke: 10px #783caa;
 }
 #btnCrateRoom, #btnJoinGame,#btnSignup, #btnLogin, #btnLogout, #btnQuestion,#btnAdd, #btnSubmit {
 	width: 150px;
@@ -34,8 +35,9 @@ body{
 	border-radius: 20px;
 }
 .display-4{
-    width: 100px;
     height: 100px;
+    margin: 5px;
+	padding: 10px;
 }
 #waiting-text{
     color: #783caa;
